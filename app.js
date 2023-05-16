@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", function (req,res) {
-    res.send("<h1 style='font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; color: #333333; text-align: center;'>Test it with /price</h1>");
+    res.send("<h1 style='font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; color: #333333; text-align: center;'>Test it with https://lohum-backend-assignment-shlokagrawal.onrender.com/price</h1>");
 });
 
 app.get("/price", async function(req,res) {
